@@ -1,0 +1,21 @@
+@font-face {
+	font-family: hLight;
+	src: url(HelveticaNeue.ttf);
+}
+@font-face {
+	font-family: hBold;
+	src: url(HelveticaBold.ttf);
+}
+body, html {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+	font-family: hLight;
+	background-image: url(back.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jumbotron {
+	background: transparent;
+}

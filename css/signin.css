@@ -1,0 +1,63 @@
+@font-face {
+	font-family: hLight;
+	src: url(HelveticaNeue.ttf);
+}
+@font-face {
+	font-family: hBold;
+	src: url(HelveticaBold.ttf);
+}
+body, html {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+	font-family: hLight;
+	background-image: url(back.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jumbotron {
+	min-height: 100vh;
+	border-radius: 0px;
+	background: transparent;
+}
+.form-control {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	margin-left: 25%;
+}
+#signin {
+	background: white;
+	box-shadow: 2px 2px 4px 0px rgb(100, 100, 100);
+	width: 50%;
+}
+.logo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+input {
+	border: 0px solid !important;
+	box-shadow: none !important;
+	border-bottom-width: 1px !important;
+	background: transparent;
+	border-radius: 0px !important;
+}
+*:focus {
+	outline: none;
+	box-shadow: none !important;
+}
+@media only screen and (max-width:769px) {
+	#signin {
+		width: 75%;
+	}
+}
+@media only screen and (max-width:415px) {
+	#signin {
+		width: 100%;
+	}
+	.form-control {
+		width: 75%;
+		margin-left: 12.5%;
+	}
+}

@@ -1,0 +1,36 @@
+@font-face {
+	font-family: hLight;
+	src: url(HelveticaNeue.ttf);
+}
+@font-face {
+	font-family: hBold;
+	src: url(HelveticaBold.ttf);
+}
+body, html {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+	font-family: hLight;
+}
+.jumbotron {
+	min-height: 100vh;
+	border-radius: 0px;
+	background: transparent;
+}
+.media {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+*:focus {
+	outline: none;
+	box-shadow: none !important;
+	border: 0px solid;
+}
+a {
+	color: #f06292;
+}
+a:hover {
+	text-decoration: none;
+	color: #f06292;
+}
